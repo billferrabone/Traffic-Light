@@ -85,33 +85,8 @@ div.kontainer {
     background-color: rgb(19, 49, 19);
 }
 
- .botones {
-    position: static;
-    margin-bottom: 25px;
- }
-.buttons {
-    border-radius: 10px;
-    background-color: rgb(142, 152, 160);
-    padding: 10px;
-    margin-bottom: 30px;
-}
-
-#turn-off-button:hover {
-    background-color: green;
-    color: wheat;
-}
-#turn-off-button:active {
-    background-color: red;
-    color: wheat;
-}
-#start-button:hover {
-    background-color: red;
-    color: wheat;
-}
-#start-button:active {
-    background-color: green;
-    color: wheat;
-}
+ /*  */
+/*  */
 /* 
 
     You can write your own styles here...

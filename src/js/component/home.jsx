@@ -32,26 +32,11 @@ const Home = () => {
   let index = 0
 
  
-  const animation = () => {
-    setInterval( () => {
-      let coloursArray = ["red", "yellow", "green"];
-      setColor(coloursArray[index]);
-      index++;
-      // if (color == null) {clearInterval(this)}
-      if (index > 2) {index = 0}}, 1000)
-      
-    
-  }
-
+ 
 	return (<>
     
 		<div className="kontainer">
-      <div className="botones">
-        {/* <span className="buttons" id="turn-off-button" onClick={turningOff}>Turn off</span> */}
-        {/* <span className="buttons" id="start-button" onClick={animation}>Start animation</span> */}
-        {/* <span className="buttons" id="stop-button" onClick={stopAnimation}>Stop animation</span> */}
-
-      </div>
+     
       <div className="semaforo">
         <span className="light-circle red" onClick={redSelected} id={redColored}></span>
         <span className="light-circle yellow" onClick={yellowSelected} id={yellowColored}></span>
